@@ -11,4 +11,83 @@ body{
     width: 100%;
     height:100vh;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-circle{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-circle{
+    width:230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color:black ;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.laps{
+    height: 250px;
+    height: 300px;
+    overflow: auto;
+
+}
+
+.text{
+    color: azure;
+    font-size: 42px;
+}
+
+.minute{
+    font-size: 48px;
+}
+
+.sec{
+    font-size: 42px;
+}
+
+.msec{
+    font-size:27px;
+}
+.button-wrapper {
+    width:250px;
+    margin-top: 25px;
+    display:flex;
+    justify-content: space-between;
+}
+.button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.laps{
+    list-style: none;
+    color: white;
+}
+
+.number{
+    color:antiquewhite;
+}
+
+.timestamp{
+    display: inline;
 }
